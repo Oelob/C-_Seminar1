@@ -45,15 +45,30 @@ Console.Clear();
 
 // // Задача 6. Проверка четности числа
 
-Console.Write("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int result = number % 2;
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int result = number % 2;
 
-if (result == 0)
-{
-    Console.Write("Число " + number + " четное");
-}
-else
-{
-    Console.Write("Число " + number + " нечетное");
-}    
+// if (result == 0)
+// {
+//     Console.Write("Число " + number + " четное");
+// }
+// else
+// {
+//     Console.Write("Число " + number + " нечетное");
+// }    
+
+// // Задача 8. 
+
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int count = 1;
+int diff = count % 2;
+
+while (count < num)
+    
+    if (diff == 0)
+    {
+        Console.Write(count + ",");
+    }
+    count +=1;
